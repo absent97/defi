@@ -17,25 +17,25 @@ export const Navbar = () => {
     <div className="navbar">
       <div className="container">
         <h1 style={{ marginLeft: "1rem", cursor: "pointer" }}>
-          <Link style={{ color: "#00d8ff" }} to="/">
+          <Link style={{ color: "#00d8ff" }} to="/defi">
             Defi
           </Link>
         </h1>
         <ul className={click ? "nav active" : "nav"}>
           <li className="nav-item">
-            <Link to="/">Platform</Link>
+            <Link to="/defi">Platform</Link>
           </li>
           <li className="nav-item">
-            <Link to="/developers">Developers</Link>
+            <Link to="/defi/developers">Developers</Link>
           </li>
           <li className="nav-item">
-            <Link to="/community">Community</Link>
+            <Link to="/defi/community">Community</Link>
           </li>
           <li className="nav-item">
-            <Link to="/about">About</Link>
+            <Link to="/defi/about">About</Link>
           </li>
           <li className="nav-item">
-            <Link to="/signup" className="btn">
+            <Link to="/defi/signup" className="btn">
               Use Defi
             </Link>
           </li>
